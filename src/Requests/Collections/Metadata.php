@@ -15,13 +15,7 @@ class Metadata extends Request
   }
 
   public function __construct(
-    protected string $collectionId,
-    protected bool $withDatasetMetadata = true
+    protected string $collectionId
   ) {
-  }
-
-  public function defaultQuery(): array
-  {
-    return array_filter(['withDatasetMetadata' => $this->withDatasetMetadata]);
   }
 }
