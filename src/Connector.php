@@ -2,34 +2,37 @@
 
 namespace Vinkas\Singapore\Api;
 
-use Saloon\Http\Connector as SaloonConnector;
-use Vinkas\Singapore\Api\Resource\AirQuality;
-use Vinkas\Singapore\Api\Resource\Weather;
+use Vinkas\Singapore\Api\Connectors\CollectionConnector;
+use Vinkas\Singapore\Api\Connectors\DatasetConnector;
+use Vinkas\Singapore\Api\Connectors\RealtimeConnector;
+use Vinkas\Singapore\Api\Resources\AirQuality;
+use Vinkas\Singapore\Api\Resources\Collection;
+use Vinkas\Singapore\Api\Resources\Dataset;
+use Vinkas\Singapore\Api\Resources\Weather;
 
-/**
- * Real-time API weather services
- *
- * Real-time API documentation of weather services
- */
-class Connector extends SaloonConnector
+class Connector
 {
-	public function __construct()
+  public function __construct()
 	{
-	}
-
-
-	public function resolveBaseUrl(): string
-	{
-		return "https://api-open.data.gov.sg/v2/real-time/api";
 	}
 
 	public function airQuality(): AirQuality
 	{
-		return new AirQuality($this);
+		return new AirQuality(new RealtimeConnector());
 	}
 
 	public function weather(): Weather
 	{
-		return new Weather($this);
+		return new Weather(new RealtimeConnector());
 	}
+
+  public function collection(?string $id = null): Collection
+  {
+    return new Collection(new CollectionConnector(), $id);
+  }
+
+  public function dataset(?string $id = null): Dataset
+  {
+    return new Dataset(new DatasetConnector(), $id);
+  }
 }

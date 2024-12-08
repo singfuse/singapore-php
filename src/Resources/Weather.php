@@ -1,6 +1,6 @@
 <?php
 
-namespace Vinkas\Singapore\Api\Resource;
+namespace Vinkas\Singapore\Api\Resources;
 
 use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
