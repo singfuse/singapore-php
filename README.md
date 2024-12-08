@@ -21,8 +21,8 @@ use Vinkas\Singapore\Api\Connector;
 
 $connector = new Connector();
 $response = $connector->weather()->rainfall();
-$data = $response->object()->data();
+$data = $response->object()->data;
 
-$stations = $data->stations();
-$readings = $data->readings();
+$stations = $data->stations;
+$readings = $data->readings;
 ```
