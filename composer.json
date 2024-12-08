@@ -1,5 +1,5 @@
 {
-    "name": "vinkas/singapore-api",
+    "name": "vinkas/singapore",
     "description": "PHP SDK for Singapore's open data API",
     "type": "library",
     "license": "MIT",
