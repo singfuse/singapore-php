@@ -4,7 +4,7 @@ namespace Vinkas\Singapore\Data;
 
 class Subzones
 {
-    public function all(): array
+    public static function all(): array
     {
         return [
             [

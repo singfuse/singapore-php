@@ -4,7 +4,7 @@ namespace Vinkas\Singapore\Data;
 
 class Regions
 {
-  public function all(): array
+  public static function all(): array
   {
     return [
       [
