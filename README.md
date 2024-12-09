@@ -1,6 +1,6 @@
-# singapore-api-php
+# singapore-php
 
-[![Tests](https://github.com/vinkashq/singapore-api-php/actions/workflows/tests.yml/badge.svg)](https://github.com/vinkashq/singapore-api-php/actions/workflows/tests.yml) [![Packagist Version](https://img.shields.io/packagist/v/vinkas/singapore?logo=packagist&logoColor=000000&label=version&labelColor=d9e0f3&color=f28d1a)](https://packagist.org/packages/vinkas/singapore)
+[![Tests](https://github.com/vinkashq/singapore-php/actions/workflows/tests.yml/badge.svg)](https://github.com/vinkashq/singapore-php/actions/workflows/tests.yml) [![Packagist Version](https://img.shields.io/packagist/v/vinkas/singapore?logo=packagist&logoColor=000000&label=version&labelColor=d9e0f3&color=f28d1a)](https://packagist.org/packages/vinkas/singapore)
 
 PHP SDK for Singapore's open data API https://data.gov.sg/datasets?formats=API
 
@@ -25,4 +25,17 @@ $data = $response->object()->data;
 
 $stations = $data->stations;
 $readings = $data->readings;
+```
+
+Also, you can get all the details of Singapore regions, areas, and subzones from the classes below.
+These lists are created from the MIT Node package https://github.com/horensen/sg-areas
+
+```php
+use Vinkas\Singapore\Data\Regions;
+use Vinkas\Singapore\Data\Areas;
+use Vinkas\Singapore\Data\Subzones;
+
+Regions::all();
+Areas::all();
+Subzones::all();
 ```
