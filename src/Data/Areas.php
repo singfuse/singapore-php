@@ -394,6 +394,8 @@ class Areas
                 'name' => 'Northeastern Islands',
                 'slug' => 'northeastern-islands',
                 'zh_name' => '东北群岛',
+                'latitude' => null,
+                'longitude' => null,
             ],
             [
                 'id' => 40,
@@ -542,6 +544,8 @@ class Areas
                 'name' => 'Western Islands',
                 'slug' => 'western-islands',
                 'zh_name' => '西部群岛',
+                'latitude' => null,
+                'longitude' => null,
             ],
             [
                 'id' => 55,
