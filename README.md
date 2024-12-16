@@ -34,8 +34,10 @@ Some of these lists are created from the MIT Node package https://github.com/hor
 use Vinkas\Singapore\Data\Regions;
 use Vinkas\Singapore\Data\Areas;
 use Vinkas\Singapore\Data\Subzones;
+use Vinkas\Singapore\Data\PostalDistricts;
 
 Regions::all();
 Areas::all();
 Subzones::all();
+PostalDistricts::all();
 ```
