@@ -9,11 +9,13 @@ class PostalDistricts
         return [
             [
                 'id' => 1,
+                'region_id' => 1,
                 'code' => '01',
                 'locations' => [
                     'Raffles Place',
                     'Cecil',
-                    'Marina, People\'s Park'
+                    'Marina',
+                    'People\'s Park'
                 ],
                 'sectors' => [
                     '01',
@@ -26,6 +28,7 @@ class PostalDistricts
             ],
             [
                 'id' => 2,
+                'region_id' => 1,
                 'code' => '02',
                 'locations' => [
                     'Anson',
@@ -38,6 +41,7 @@ class PostalDistricts
             ],
             [
                 'id' => 3,
+                'region_id' => 1,
                 'code' => '03',
                 'locations' => [
                     'Queenstown',
@@ -51,6 +55,7 @@ class PostalDistricts
             ],
             [
                 'id' => 4,
+                'region_id' => 1,
                 'code' => '04',
                 'locations' => [
                     'Telok Blangah',
@@ -63,6 +68,7 @@ class PostalDistricts
             ],
             [
                 'id' => 5,
+                'region_id' => 1,
                 'code' => '05',
                 'locations' => [
                     'Pasir Panjang',
@@ -77,6 +83,7 @@ class PostalDistricts
             ],
             [
                 'id' => 6,
+                'region_id' => 1,
                 'code' => '06',
                 'locations' => [
                     'High Street',
@@ -88,6 +95,7 @@ class PostalDistricts
             ],
             [
                 'id' => 7,
+                'region_id' => 1,
                 'code' => '07',
                 'locations' => [
                     'Middle Road',
@@ -100,6 +108,7 @@ class PostalDistricts
             ],
             [
                 'id' => 8,
+                'region_id' => 1,
                 'code' => '08',
                 'locations' => [
                     'Little India'
@@ -111,6 +120,7 @@ class PostalDistricts
             ],
             [
                 'id' => 9,
+                'region_id' => 1,
                 'code' => '09',
                 'locations' => [
                     'Orchard',
@@ -124,6 +134,7 @@ class PostalDistricts
             ],
             [
                 'id' => 10,
+                'region_id' => 1,
                 'code' => '10',
                 'locations' => [
                     'Ardmore',
@@ -140,6 +151,7 @@ class PostalDistricts
             ],
             [
                 'id' => 11,
+                'region_id' => 1,
                 'code' => '11',
                 'locations' => [
                     'Watten Estate',
@@ -154,6 +166,7 @@ class PostalDistricts
             ],
             [
                 'id' => 12,
+                'region_id' => 1,
                 'code' => '12',
                 'locations' => [
                     'Balestier',
@@ -168,6 +181,7 @@ class PostalDistricts
             ],
             [
                 'id' => 13,
+                'region_id' => 1,
                 'code' => '13',
                 'locations' => [
                     'Macpherson',
@@ -182,6 +196,7 @@ class PostalDistricts
             ],
             [
                 'id' => 14,
+                'region_id' => 1,
                 'code' => '14',
                 'locations' => [
                     'Geylang',
@@ -196,6 +211,7 @@ class PostalDistricts
             ],
             [
                 'id' => 15,
+                'region_id' => 1,
                 'code' => '15',
                 'locations' => [
                     'Katong',
@@ -211,6 +227,7 @@ class PostalDistricts
             ],
             [
                 'id' => 16,
+                'region_id' => 2,
                 'code' => '16',
                 'locations' => [
                     'Bedok',
@@ -226,6 +243,7 @@ class PostalDistricts
             ],
             [
                 'id' => 17,
+                'region_id' => 2,
                 'code' => '17',
                 'locations' => [
                     'Loyang',
@@ -239,6 +257,7 @@ class PostalDistricts
             ],
             [
                 'id' => 18,
+                'region_id' => 2,
                 'code' => '18',
                 'locations' => [
                     'Tampines',
@@ -251,6 +270,7 @@ class PostalDistricts
             ],
             [
                 'id' => 19,
+                'region_id' => 4,
                 'code' => '19',
                 'locations' => [
                     'Serangoon Garden',
@@ -266,6 +286,7 @@ class PostalDistricts
             ],
             [
                 'id' => 20,
+                'region_id' => 4,
                 'code' => '20',
                 'locations' => [
                     'Bishan',
@@ -278,6 +299,7 @@ class PostalDistricts
             ],
             [
                 'id' => 21,
+                'region_id' => 1,
                 'code' => '21',
                 'locations' => [
                     'Upper Bukit Timah',
@@ -291,6 +313,7 @@ class PostalDistricts
             ],
             [
                 'id' => 22,
+                'region_id' => 5,
                 'code' => '22',
                 'locations' => [
                     'Jurong'
@@ -305,6 +328,7 @@ class PostalDistricts
             ],
             [
                 'id' => 23,
+                'region_id' => 5,
                 'code' => '23',
                 'locations' => [
                     'Hillview',
@@ -321,6 +345,7 @@ class PostalDistricts
             ],
             [
                 'id' => 24,
+                'region_id' => 5,
                 'code' => '24',
                 'locations' => [
                     'Lim Chu Kang',
@@ -334,6 +359,7 @@ class PostalDistricts
             ],
             [
                 'id' => 25,
+                'region_id' => 3,
                 'code' => '25',
                 'locations' => [
                     'Kranji',
@@ -346,6 +372,7 @@ class PostalDistricts
             ],
             [
                 'id' => 26,
+                'region_id' => 3,
                 'code' => '26',
                 'locations' => [
                     'Upper Thomson',
@@ -358,6 +385,7 @@ class PostalDistricts
             ],
             [
                 'id' => 27,
+                'region_id' => 3,
                 'code' => '27',
                 'locations' => [
                     'Yishun',
@@ -370,6 +398,7 @@ class PostalDistricts
             ],
             [
                 'id' => 28,
+                'region_id' => 4,
                 'code' => '28',
                 'locations' => [
                     'Seletar'
