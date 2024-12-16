@@ -27,8 +27,8 @@ $stations = $data->stations;
 $readings = $data->readings;
 ```
 
-Also, you can get all the details of Singapore regions, areas, and subzones from the classes below.
-These lists are created from the MIT Node package https://github.com/horensen/sg-areas
+Also, you can get all the details of Singapore regions, areas, subzones, and postal districts from the classes below.
+Some of these lists are created from the MIT Node package https://github.com/horensen/sg-areas
 
 ```php
 use Vinkas\Singapore\Data\Regions;
