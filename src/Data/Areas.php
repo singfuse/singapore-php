@@ -10,6 +10,7 @@ class Areas
             [
                 'id' => 1,
                 'region_id' => 1,
+                'postal_district_id' => 20,
                 'key' => 'C_BSH',
                 'name' => 'Bishan',
                 'slug' => 'bishan',
@@ -30,6 +31,7 @@ class Areas
             [
                 'id' => 3,
                 'region_id' => 1,
+                'postal_district_id' => 10,
                 'key' => 'C_BKT',
                 'name' => 'Bukit Timah',
                 'slug' => 'bukit-timah',
@@ -50,6 +52,7 @@ class Areas
             [
                 'id' => 5,
                 'region_id' => 1,
+                'postal_district_id' => 14,
                 'key' => 'C_GLG',
                 'name' => 'Geylang',
                 'slug' => 'geylang',
@@ -70,6 +73,7 @@ class Areas
             [
                 'id' => 7,
                 'region_id' => 1,
+                'postal_district_id' => 1,
                 'key' => 'C_MAE',
                 'name' => 'Marina East',
                 'slug' => 'marina-east',
@@ -80,6 +84,7 @@ class Areas
             [
                 'id' => 8,
                 'region_id' => 1,
+                'postal_district_id' => 1,
                 'key' => 'C_MAS',
                 'name' => 'Marina South',
                 'slug' => 'marina-south',
@@ -120,6 +125,7 @@ class Areas
             [
                 'id' => 12,
                 'region_id' => 1,
+                'postal_district_id' => 11,
                 'key' => 'C_NOV',
                 'name' => 'Novena',
                 'slug' => 'novena',
@@ -130,6 +136,7 @@ class Areas
             [
                 'id' => 13,
                 'region_id' => 1,
+                'postal_district_id' => 9,
                 'key' => 'C_ORC',
                 'name' => 'Orchard',
                 'slug' => 'orchard',
@@ -150,6 +157,7 @@ class Areas
             [
                 'id' => 15,
                 'region_id' => 1,
+                'postal_district_id' => 3,
                 'key' => 'C_QUE',
                 'name' => 'Queenstown',
                 'slug' => 'queenstown',
@@ -160,6 +168,7 @@ class Areas
             [
                 'id' => 16,
                 'region_id' => 1,
+                'postal_district_id' => 9,
                 'key' => 'C_RVV',
                 'name' => 'River Valley',
                 'slug' => 'river-valley',
@@ -210,6 +219,7 @@ class Areas
             [
                 'id' => 21,
                 'region_id' => 1,
+                'postal_district_id' => 10,
                 'key' => 'C_TGL',
                 'name' => 'Tanglin',
                 'slug' => 'tanglin',
@@ -220,6 +230,7 @@ class Areas
             [
                 'id' => 22,
                 'region_id' => 1,
+                'postal_district_id' => 12,
                 'key' => 'C_TAP',
                 'name' => 'Toa Payoh',
                 'slug' => 'toa-payoh',
@@ -230,6 +241,7 @@ class Areas
             [
                 'id' => 23,
                 'region_id' => 2,
+                'postal_district_id' => 16,
                 'key' => 'E_BDK',
                 'name' => 'Bedok',
                 'slug' => 'bedok',
@@ -240,6 +252,7 @@ class Areas
             [
                 'id' => 24,
                 'region_id' => 2,
+                'postal_district_id' => 17,
                 'key' => 'E_CHG',
                 'name' => 'Changi',
                 'slug' => 'changi',
@@ -260,6 +273,7 @@ class Areas
             [
                 'id' => 26,
                 'region_id' => 2,
+                'postal_district_id' => 18,
                 'key' => 'E_PSR',
                 'name' => 'Pasir Ris',
                 'slug' => 'pasir-ris',
@@ -280,6 +294,7 @@ class Areas
             [
                 'id' => 28,
                 'region_id' => 2,
+                'postal_district_id' => 18,
                 'key' => 'E_TAM',
                 'name' => 'Tampines',
                 'slug' => 'tampines',
@@ -300,6 +315,7 @@ class Areas
             [
                 'id' => 30,
                 'region_id' => 3,
+                'postal_district_id' => 24,
                 'key' => 'N_LCK',
                 'name' => 'Lim Chu Kang',
                 'slug' => 'lim-chu-kang',
@@ -320,6 +336,7 @@ class Areas
             [
                 'id' => 32,
                 'region_id' => 3,
+                'postal_district_id' => 27,
                 'key' => 'N_SBW',
                 'name' => 'Sembawang',
                 'slug' => 'sembawang',
@@ -360,6 +377,7 @@ class Areas
             [
                 'id' => 36,
                 'region_id' => 3,
+                'postal_district_id' => 27,
                 'key' => 'N_YIS',
                 'name' => 'Yishun',
                 'slug' => 'yishun',
@@ -370,6 +388,7 @@ class Areas
             [
                 'id' => 37,
                 'region_id' => 4,
+                'postal_district_id' => 20,
                 'key' => 'NE_AMK',
                 'name' => 'Ang Mo Kio',
                 'slug' => 'ang-mo-kio',
@@ -380,6 +399,7 @@ class Areas
             [
                 'id' => 38,
                 'region_id' => 4,
+                'postal_district_id' => 19,
                 'key' => 'NE_HGN',
                 'name' => 'Hougang',
                 'slug' => 'hougang',
@@ -400,6 +420,7 @@ class Areas
             [
                 'id' => 40,
                 'region_id' => 4,
+                'postal_district_id' => 19,
                 'key' => 'NE_PGL',
                 'name' => 'Punggol',
                 'slug' => 'punggol',
@@ -410,6 +431,7 @@ class Areas
             [
                 'id' => 41,
                 'region_id' => 4,
+                'postal_district_id' => 28,
                 'key' => 'NE_SLT',
                 'name' => 'Seletar',
                 'slug' => 'seletar',
@@ -430,6 +452,7 @@ class Areas
             [
                 'id' => 43,
                 'region_id' => 4,
+                'postal_district_id' => 12,
                 'key' => 'NE_SER',
                 'name' => 'Serangoon',
                 'slug' => 'serangoon',
@@ -460,6 +483,7 @@ class Areas
             [
                 'id' => 46,
                 'region_id' => 5,
+                'postal_district_id' => 23,
                 'key' => 'W_BKP',
                 'name' => 'Bukit Panjang',
                 'slug' => 'bukit-panjang',
@@ -470,6 +494,7 @@ class Areas
             [
                 'id' => 47,
                 'region_id' => 5,
+                'postal_district_id' => 23,
                 'key' => 'W_CCK',
                 'name' => 'Choa Chu Kang',
                 'slug' => 'choa-chu-kang',
@@ -520,6 +545,7 @@ class Areas
             [
                 'id' => 52,
                 'region_id' => 5,
+                'postal_district_id' => 24,
                 'key' => 'W_TGH',
                 'name' => 'Tengah',
                 'slug' => 'tengah',

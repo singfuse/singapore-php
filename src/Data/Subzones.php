@@ -10,6 +10,7 @@ class Subzones
             [
                 'id' => 1,
                 'area_id' => 1,
+                'postal_district_id' => 20,
                 'key' => 'C_BSH_BIE',
                 'name' => 'Bishan East',
                 'slug' => 'bishan-east',
@@ -30,6 +31,7 @@ class Subzones
             [
                 'id' => 3,
                 'area_id' => 1,
+                'postal_district_id' => 26,
                 'key' => 'C_BSH_UPT',
                 'name' => 'Upper Thomson',
                 'slug' => 'upper-thomson',
@@ -190,6 +192,7 @@ class Subzones
             [
                 'id' => 19,
                 'area_id' => 2,
+                'postal_district_id' => 3,
                 'key' => 'C_BMR_TIB',
                 'name' => 'Tiong Bahru',
                 'slug' => 'tiong-bahru',
@@ -250,6 +253,7 @@ class Subzones
             [
                 'id' => 25,
                 'area_id' => 3,
+                'postal_district_id' => 10,
                 'key' => 'C_BKT_HOR',
                 'name' => 'Holland Road',
                 'slug' => 'holland-road',
@@ -280,6 +284,7 @@ class Subzones
             [
                 'id' => 28,
                 'area_id' => 3,
+                'postal_district_id' => 21,
                 'key' => 'C_BKT_ULP',
                 'name' => 'Ulu Pandan',
                 'slug' => 'ulu-pandan',
@@ -290,6 +295,7 @@ class Subzones
             [
                 'id' => 29,
                 'area_id' => 4,
+                'postal_district_id' => 2,
                 'key' => 'C_DTC_ANS',
                 'name' => 'Anson',
                 'slug' => 'anson',
@@ -320,6 +326,7 @@ class Subzones
             [
                 'id' => 32,
                 'area_id' => 4,
+                'postal_district_id' => 1,
                 'key' => 'C_DTC_CEC',
                 'name' => 'Cecil',
                 'slug' => 'cecil',
@@ -360,6 +367,7 @@ class Subzones
             [
                 'id' => 36,
                 'area_id' => 4,
+                'postal_district_id' => 1,
                 'key' => 'C_DTC_MAC',
                 'name' => 'Marina Centre',
                 'slug' => 'marina-centre',
@@ -390,6 +398,7 @@ class Subzones
             [
                 'id' => 39,
                 'area_id' => 4,
+                'postal_district_id' => 1,
                 'key' => 'C_DTC_RAP',
                 'name' => 'Raffles Place',
                 'slug' => 'raffles-place',
@@ -400,6 +409,7 @@ class Subzones
             [
                 'id' => 40,
                 'area_id' => 4,
+                'postal_district_id' => 2,
                 'key' => 'C_DTC_TAP',
                 'name' => 'Tanjong Pagar',
                 'slug' => 'tanjong-pagar',
@@ -420,6 +430,7 @@ class Subzones
             [
                 'id' => 42,
                 'area_id' => 5,
+                'postal_district_id' => 14,
                 'key' => 'C_GLG_GEE',
                 'name' => 'Geylang East',
                 'slug' => 'geylang-east',
@@ -450,6 +461,7 @@ class Subzones
             [
                 'id' => 45,
                 'area_id' => 5,
+                'postal_district_id' => 13,
                 'key' => 'C_GLG_MAC',
                 'name' => 'Macpherson',
                 'slug' => 'macpherson',
@@ -560,6 +572,7 @@ class Subzones
             [
                 'id' => 56,
                 'area_id' => 7,
+                'postal_district_id' => 1,
                 'key' => 'C_MAE_MAE',
                 'name' => 'Marina East',
                 'slug' => 'marina-east',
@@ -570,6 +583,7 @@ class Subzones
             [
                 'id' => 57,
                 'area_id' => 8,
+                'postal_district_id' => 1,
                 'key' => 'C_MAS_MAS',
                 'name' => 'Marina South',
                 'slug' => 'marina-south',
@@ -590,6 +604,7 @@ class Subzones
             [
                 'id' => 59,
                 'area_id' => 9,
+                'postal_district_id' => 15,
                 'key' => 'C_MEP_KAT',
                 'name' => 'Katong',
                 'slug' => 'katong',
@@ -600,6 +615,7 @@ class Subzones
             [
                 'id' => 60,
                 'area_id' => 9,
+                'postal_district_id' => 1,
                 'key' => 'C_MEP_MAE',
                 'name' => 'Marina East (Marine Parade)',
                 'slug' => 'marina-east-(marine-parade)',
@@ -660,6 +676,7 @@ class Subzones
             [
                 'id' => 66,
                 'area_id' => 11,
+                'postal_district_id' => 9,
                 'key' => 'C_NEW_CAI',
                 'name' => 'Cairnhill',
                 'slug' => 'cairnhill',
@@ -720,6 +737,7 @@ class Subzones
             [
                 'id' => 72,
                 'area_id' => 12,
+                'postal_district_id' => 12,
                 'key' => 'C_NOV_BAL',
                 'name' => 'Balestier',
                 'slug' => 'balestier',
@@ -790,6 +808,7 @@ class Subzones
             [
                 'id' => 79,
                 'area_id' => 13,
+                'postal_district_id' => 10,
                 'key' => 'C_ORC_TAN',
                 'name' => 'Tanglin',
                 'slug' => 'tanglin',
@@ -830,6 +849,7 @@ class Subzones
             [
                 'id' => 83,
                 'area_id' => 14,
+                'postal_district_id' => 1,
                 'key' => 'C_OTR_PEP',
                 'name' => 'People\'s Park',
                 'slug' => 'peoples-park',
@@ -930,6 +950,7 @@ class Subzones
             [
                 'id' => 93,
                 'area_id' => 15,
+                'postal_district_id' => 5,
                 'key' => 'C_QUE_PP1',
                 'name' => 'Pasir Panjang 1',
                 'slug' => 'pasir-panjang-1',
@@ -940,6 +961,7 @@ class Subzones
             [
                 'id' => 94,
                 'area_id' => 15,
+                'postal_district_id' => 5,
                 'key' => 'C_QUE_PP2',
                 'name' => 'Pasir Panjang 2',
                 'slug' => 'pasir-panjang-2',
@@ -1070,6 +1092,7 @@ class Subzones
             [
                 'id' => 107,
                 'area_id' => 17,
+                'postal_district_id' => 8,
                 'key' => 'C_RCR_LII',
                 'name' => 'Little India',
                 'slug' => 'little-india',
@@ -1250,6 +1273,7 @@ class Subzones
             [
                 'id' => 125,
                 'area_id' => 22,
+                'postal_district_id' => 13,
                 'key' => 'C_TAP_BRA',
                 'name' => 'Braddell',
                 'slug' => 'braddell',
@@ -1360,6 +1384,7 @@ class Subzones
             [
                 'id' => 136,
                 'area_id' => 23,
+                'postal_district_id' => 16,
                 'key' => 'E_BDK_BEN',
                 'name' => 'Bedok North',
                 'slug' => 'bedok-north',
@@ -1370,6 +1395,7 @@ class Subzones
             [
                 'id' => 137,
                 'area_id' => 23,
+                'postal_district_id' => 16,
                 'key' => 'E_BDK_BER',
                 'name' => 'Bedok Reservoir',
                 'slug' => 'bedok-reservoir',
@@ -1380,6 +1406,7 @@ class Subzones
             [
                 'id' => 138,
                 'area_id' => 23,
+                'postal_district_id' => 16,
                 'key' => 'E_BDK_BES',
                 'name' => 'Bedok South',
                 'slug' => 'bedok-south',
@@ -1430,6 +1457,7 @@ class Subzones
             [
                 'id' => 143,
                 'area_id' => 24,
+                'postal_district_id' => 17,
                 'key' => 'E_CHG_CHA',
                 'name' => 'Changi Airport',
                 'slug' => 'changi-airport',
@@ -1440,6 +1468,7 @@ class Subzones
             [
                 'id' => 144,
                 'area_id' => 24,
+                'postal_district_id' => 17,
                 'key' => 'E_CHG_CHP',
                 'name' => 'Changi Point',
                 'slug' => 'changi-point',
@@ -1450,6 +1479,7 @@ class Subzones
             [
                 'id' => 145,
                 'area_id' => 24,
+                'postal_district_id' => 17,
                 'key' => 'E_CHG_CHW',
                 'name' => 'Changi West',
                 'slug' => 'changi-west',
@@ -1500,6 +1530,7 @@ class Subzones
             [
                 'id' => 150,
                 'area_id' => 26,
+                'postal_district_id' => 18,
                 'key' => 'E_PSR_PRC',
                 'name' => 'Pasir Ris Central',
                 'slug' => 'pasir-ris-central',
@@ -1510,6 +1541,7 @@ class Subzones
             [
                 'id' => 151,
                 'area_id' => 26,
+                'postal_district_id' => 18,
                 'key' => 'E_PSR_PRD',
                 'name' => 'Pasir Ris Drive',
                 'slug' => 'pasir-ris-drive',
@@ -1520,6 +1552,7 @@ class Subzones
             [
                 'id' => 152,
                 'area_id' => 26,
+                'postal_district_id' => 18,
                 'key' => 'E_PSR_PRP',
                 'name' => 'Pasir Ris Park',
                 'slug' => 'pasir-ris-park',
@@ -1530,6 +1563,7 @@ class Subzones
             [
                 'id' => 153,
                 'area_id' => 26,
+                'postal_district_id' => 18,
                 'key' => 'E_PSR_WFP',
                 'name' => 'Pasir Ris Wafer Fab Park',
                 'slug' => 'pasir-ris-wafer-fab-park',
@@ -1540,6 +1574,7 @@ class Subzones
             [
                 'id' => 154,
                 'area_id' => 26,
+                'postal_district_id' => 18,
                 'key' => 'E_PSR_PRW',
                 'name' => 'Pasir Ris West',
                 'slug' => 'pasir-ris-west',
@@ -1610,6 +1645,7 @@ class Subzones
             [
                 'id' => 161,
                 'area_id' => 28,
+                'postal_district_id' => 18,
                 'key' => 'E_TAM_TAE',
                 'name' => 'Tampines East',
                 'slug' => 'tampines-east',
@@ -1620,6 +1656,7 @@ class Subzones
             [
                 'id' => 162,
                 'area_id' => 28,
+                'postal_district_id' => 18,
                 'key' => 'E_TAM_TAN',
                 'name' => 'Tampines North',
                 'slug' => 'tampines-north',
@@ -1630,6 +1667,7 @@ class Subzones
             [
                 'id' => 163,
                 'area_id' => 28,
+                'postal_district_id' => 18,
                 'key' => 'E_TAM_TAW',
                 'name' => 'Tampines West',
                 'slug' => 'tampines-west',
@@ -1660,6 +1698,7 @@ class Subzones
             [
                 'id' => 166,
                 'area_id' => 30,
+                'postal_district_id' => 24,
                 'key' => 'N_LCK_LCK',
                 'name' => 'Lim Chu Kang',
                 'slug' => 'lim-chu-kang',
@@ -1710,6 +1749,7 @@ class Subzones
             [
                 'id' => 171,
                 'area_id' => 32,
+                'postal_district_id' => 27,
                 'key' => 'N_SBW_SEC',
                 'name' => 'Sembawang Central',
                 'slug' => 'sembawang-central',
@@ -1720,6 +1760,7 @@ class Subzones
             [
                 'id' => 172,
                 'area_id' => 32,
+                'postal_district_id' => 27,
                 'key' => 'N_SBW_SEE',
                 'name' => 'Sembawang East',
                 'slug' => 'sembawang-east',
@@ -1730,6 +1771,7 @@ class Subzones
             [
                 'id' => 173,
                 'area_id' => 32,
+                'postal_district_id' => 27,
                 'key' => 'N_SBW_SMN',
                 'name' => 'Sembawang North',
                 'slug' => 'sembawang-north',
@@ -1740,6 +1782,7 @@ class Subzones
             [
                 'id' => 174,
                 'area_id' => 32,
+                'postal_district_id' => 27,
                 'key' => 'N_SBW_SSP',
                 'name' => 'Sembawang Springs',
                 'slug' => 'sembawang-springs',
@@ -1750,6 +1793,7 @@ class Subzones
             [
                 'id' => 175,
                 'area_id' => 32,
+                'postal_district_id' => 27,
                 'key' => 'N_SBW_SST',
                 'name' => 'Sembawang Straits',
                 'slug' => 'sembawang-straits',
@@ -1840,6 +1884,7 @@ class Subzones
             [
                 'id' => 184,
                 'area_id' => 34,
+                'postal_district_id' => 25,
                 'key' => 'N_SKD_KRA',
                 'name' => 'Kranji',
                 'slug' => 'kranji',
@@ -1920,6 +1965,7 @@ class Subzones
             [
                 'id' => 192,
                 'area_id' => 35,
+                'postal_district_id' => 25,
                 'key' => 'N_WDL_WOO',
                 'name' => 'Woodgrove',
                 'slug' => 'woodgrove',
@@ -2010,6 +2056,7 @@ class Subzones
             [
                 'id' => 201,
                 'area_id' => 36,
+                'postal_district_id' => 26,
                 'key' => 'N_YIS_SPR',
                 'name' => 'Springleaf',
                 'slug' => 'springleaf',
@@ -2020,6 +2067,7 @@ class Subzones
             [
                 'id' => 202,
                 'area_id' => 36,
+                'postal_district_id' => 27,
                 'key' => 'N_YIS_YIC',
                 'name' => 'Yishun Central',
                 'slug' => 'yishun-central',
@@ -2030,6 +2078,7 @@ class Subzones
             [
                 'id' => 203,
                 'area_id' => 36,
+                'postal_district_id' => 27,
                 'key' => 'N_YIS_YIE',
                 'name' => 'Yishun East',
                 'slug' => 'yishun-east',
@@ -2040,6 +2089,7 @@ class Subzones
             [
                 'id' => 204,
                 'area_id' => 36,
+                'postal_district_id' => 27,
                 'key' => 'N_YIS_YIS',
                 'name' => 'Yishun South',
                 'slug' => 'yishun-south',
@@ -2050,6 +2100,7 @@ class Subzones
             [
                 'id' => 205,
                 'area_id' => 36,
+                'postal_district_id' => 27,
                 'key' => 'N_YIS_YIW',
                 'name' => 'Yishun West',
                 'slug' => 'yishun-west',
@@ -2060,6 +2111,7 @@ class Subzones
             [
                 'id' => 206,
                 'area_id' => 37,
+                'postal_district_id' => 20,
                 'key' => 'NE_AMK_TWC',
                 'name' => 'Ang Mo Kio Town Centre',
                 'slug' => 'ang-mo-kio-town-centre',
@@ -2190,6 +2242,7 @@ class Subzones
             [
                 'id' => 219,
                 'area_id' => 38,
+                'postal_district_id' => 19,
                 'key' => 'NE_HGN_HOC',
                 'name' => 'Hougang Central',
                 'slug' => 'hougang-central',
@@ -2200,6 +2253,7 @@ class Subzones
             [
                 'id' => 220,
                 'area_id' => 38,
+                'postal_district_id' => 19,
                 'key' => 'NE_HGN_HOE',
                 'name' => 'Hougang East',
                 'slug' => 'hougang-east',
@@ -2210,6 +2264,7 @@ class Subzones
             [
                 'id' => 221,
                 'area_id' => 38,
+                'postal_district_id' => 19,
                 'key' => 'NE_HGN_HOW',
                 'name' => 'Hougang West',
                 'slug' => 'hougang-west',
@@ -2310,6 +2365,7 @@ class Subzones
             [
                 'id' => 231,
                 'area_id' => 40,
+                'postal_district_id' => 19,
                 'key' => 'NE_PGL_PUC',
                 'name' => 'Punggol Canal',
                 'slug' => 'punggol-canal',
@@ -2320,6 +2376,7 @@ class Subzones
             [
                 'id' => 232,
                 'area_id' => 40,
+                'postal_district_id' => 19,
                 'key' => 'NE_PGL_PUF',
                 'name' => 'Punggol Field',
                 'slug' => 'punggol-field',
@@ -2330,6 +2387,7 @@ class Subzones
             [
                 'id' => 233,
                 'area_id' => 40,
+                'postal_district_id' => 19,
                 'key' => 'NE_PGL_PTC',
                 'name' => 'Punggol Town Centre',
                 'slug' => 'punggol-town-centre',
@@ -2370,6 +2428,7 @@ class Subzones
             [
                 'id' => 237,
                 'area_id' => 41,
+                'postal_district_id' => 28,
                 'key' => 'NE_SLT_SEL',
                 'name' => 'Seletar',
                 'slug' => 'seletar',
@@ -2380,6 +2439,7 @@ class Subzones
             [
                 'id' => 238,
                 'area_id' => 41,
+                'postal_district_id' => 28,
                 'key' => 'NE_SLT_SAP',
                 'name' => 'Seletar Aerospace Park',
                 'slug' => 'seletar-aerospace-park',
@@ -2480,6 +2540,7 @@ class Subzones
             [
                 'id' => 248,
                 'area_id' => 43,
+                'postal_district_id' => 12,
                 'key' => 'NE_SER_SEC',
                 'name' => 'Serangoon Central',
                 'slug' => 'serangoon-central',
@@ -2490,6 +2551,7 @@ class Subzones
             [
                 'id' => 249,
                 'area_id' => 43,
+                'postal_district_id' => 19,
                 'key' => 'NE_SER_SEG',
                 'name' => 'Serangoon Garden',
                 'slug' => 'serangoon-garden',
@@ -2500,6 +2562,7 @@ class Subzones
             [
                 'id' => 250,
                 'area_id' => 43,
+                'postal_district_id' => 12,
                 'key' => 'NE_SER_SEN',
                 'name' => 'Serangoon North',
                 'slug' => 'serangoon-north',
@@ -2510,6 +2573,7 @@ class Subzones
             [
                 'id' => 251,
                 'area_id' => 43,
+                'postal_district_id' => 12,
                 'key' => 'NE_SER_SNI',
                 'name' => 'Serangoon North Industrial Estate',
                 'slug' => 'serangoon-north-industrial-estate',
@@ -2640,6 +2704,7 @@ class Subzones
             [
                 'id' => 264,
                 'area_id' => 45,
+                'postal_district_id' => 23,
                 'key' => 'W_BBT_HIV',
                 'name' => 'Hillview',
                 'slug' => 'hillview',
@@ -2670,6 +2735,7 @@ class Subzones
             [
                 'id' => 267,
                 'area_id' => 46,
+                'postal_district_id' => 23,
                 'key' => 'W_BKP_DAI',
                 'name' => 'Dairy Farm',
                 'slug' => 'dairy-farm',
@@ -2730,6 +2796,7 @@ class Subzones
             [
                 'id' => 273,
                 'area_id' => 47,
+                'postal_district_id' => 23,
                 'key' => 'W_CCK_CCC',
                 'name' => 'Choa Chu Kang Central',
                 'slug' => 'choa-chu-kang-central',
@@ -2740,6 +2807,7 @@ class Subzones
             [
                 'id' => 274,
                 'area_id' => 47,
+                'postal_district_id' => 23,
                 'key' => 'W_CCK_CCN',
                 'name' => 'Choa Chu Kang North',
                 'slug' => 'choa-chu-kang-north',
@@ -3120,6 +3188,7 @@ class Subzones
             [
                 'id' => 312,
                 'area_id' => 52,
+                'postal_district_id' => 24,
                 'key' => 'W_TGH_TEN',
                 'name' => 'Tengah',
                 'slug' => 'tengah',
