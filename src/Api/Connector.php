@@ -5,10 +5,12 @@ namespace Vinkas\Singapore\Api;
 use Vinkas\Singapore\Api\Connectors\CollectionConnector;
 use Vinkas\Singapore\Api\Connectors\DatasetConnector;
 use Vinkas\Singapore\Api\Connectors\RealtimeConnector;
+use Vinkas\Singapore\Api\Connectors\GoogleTrendsConnector;
 use Vinkas\Singapore\Api\Resources\AirQuality;
 use Vinkas\Singapore\Api\Resources\Collection;
 use Vinkas\Singapore\Api\Resources\Dataset;
 use Vinkas\Singapore\Api\Resources\Weather;
+use Vinkas\Singapore\Api\Resources\GoogleSearch;
 
 class Connector
 {
@@ -35,4 +37,9 @@ class Connector
   {
     return new Dataset(new DatasetConnector(), $id);
   }
+
+	public function googleSearch(): GoogleSearch
+	{
+		return new GoogleSearch(new GoogleTrendsConnector());
+	}
 }

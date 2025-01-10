@@ -17,7 +17,6 @@ class RealtimeConnector extends SaloonConnector
 	{
 	}
 
-
 	public function resolveBaseUrl(): string
 	{
 		return "https://api-open.data.gov.sg/v2/real-time/api";
